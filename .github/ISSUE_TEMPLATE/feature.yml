@@ -18,8 +18,7 @@ body:
       placeholder: Put your question here.
       description: Please try to provide as much details as possible
     validations:
-      required: true
-      
+      required: true     
   - type: markdown
   attributes:
     value: "## Thank you for contributing to our project!"
