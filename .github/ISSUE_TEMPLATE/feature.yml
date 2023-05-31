@@ -1,8 +1,16 @@
 name: テンプレート
-description: Use this template to submit a feature request
-title: "[enhancement]: "
+description: 基本的にこのテンプレートに沿ってIssueを作成。
+title: ""
 labels: ["enhancement", "new feature"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **HUBBERS!!** This is the github/docs open source repo. You may want to open an issue in the internal-only github/docs-content repo instead.
+
+        * For questions, ask in [Discussions](https://github.com/github/docs/discussions).
+        * Before you file an issue read the [Contributing guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md).
+        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/github/docs/issues).
   - type: markdown
     attributes:
       value: |
@@ -23,3 +31,12 @@ body:
           - [ ] タスク2-1
     validations:
       required: true
+  - type: checkboxes
+  id: 確認
+  attributes:
+    label: チェック
+    description: チェックします
+    options:
+      - label: labelの設定をしましたか？
+      - label: Projectの
+      - label: Linux
