@@ -3,10 +3,6 @@ description: 基本的にこのテンプレートに沿ってIssueを作成。
 title: ""
 labels: ["enhancement", "new feature"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to raise a question
   - type: input
     id: task-name
     attributes:
