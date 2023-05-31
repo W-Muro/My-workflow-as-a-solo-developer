@@ -1,6 +1,5 @@
 name: テンプレート
 description: 基本的にこのテンプレートに沿ってIssueを作成。
-title: ""
 labels: ["enhancement", "new feature"]
 body:
   - type: markdown
