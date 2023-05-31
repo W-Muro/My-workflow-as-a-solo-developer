@@ -27,7 +27,7 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: 確認
+    id: check
     attributes:
       label: チェック
       description: チェックします
