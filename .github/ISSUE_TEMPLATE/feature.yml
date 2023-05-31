@@ -20,9 +20,9 @@ body:
     validations:
       required: true     
   - type: markdown
-  attributes:
+    attributes:
     value: "## Thank you for contributing to our project!"
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report.
+    value: |
+      Thanks for taking the time to fill out this bug report.
