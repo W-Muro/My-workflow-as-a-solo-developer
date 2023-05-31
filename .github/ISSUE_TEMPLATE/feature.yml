@@ -28,11 +28,11 @@ body:
     validations:
       required: true
   - type: checkboxes
-      id: 確認
-      attributes:
-        label: チェック
-        description: チェックします
-        options:
-          - label: labelの設定をしましたか？
-          - label: Projectの
-          - label: Linux
+    id: 確認
+    attributes:
+      label: チェック
+      description: チェックします
+      options:
+        - label: labelの設定をしましたか？
+        - label: Projectの
+        - label: Linux
