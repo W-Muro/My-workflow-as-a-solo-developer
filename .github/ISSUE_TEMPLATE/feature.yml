@@ -5,33 +5,40 @@ body:
   - type: markdown
     attributes:
       value: |
-        **HUBBERS!!** This is the github/docs open source repo. You may want to open an issue in the internal-only github/docs-content repo instead.
-
-        * For questions, ask in [Discussions](https://github.com/github/docs/discussions).
-        * Before you file an issue read the [Contributing guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md).
-        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/github/docs/issues).
-  - type: input
-    id: task-name
-    attributes:
-      label: Task name
+        Labelの設定
+        Projectの設定
+        をしてください。
   - type: textarea
-    id: what-happened
+    id: overview
     attributes:
-      label: Describe your feature request here
-      placeholder: Put your question here.
-      description: Please try to provide as much details as possible
+      label: 概要
+      placeholder: 例)
+      description: 概要を入力
       value: |
         - [ ] タスク1
         - [ ] タスク2
           - [ ] タスク2-1
     validations:
       required: true
-  - type: checkboxes
-    id: check
+  - type: textarea
+    id: purpose
     attributes:
-      label: チェック
-      description: チェックします
-      options:
-        - label: labelの設定をしましたか？
-        - label: Projectの
-        - label: Linux
+      label: 目的
+      placeholder: 例)
+      description: 目的を入力
+      value: |
+        - [ ] タスク1
+        - [ ] タスク2
+          - [ ] タスク2-1
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: タスク
+      placeholder: 例)
+      description: タスクを入力
+      value: |
+        - [ ] タスク1
+        - [ ] タスク2
+          - [ ] タスク2-1
