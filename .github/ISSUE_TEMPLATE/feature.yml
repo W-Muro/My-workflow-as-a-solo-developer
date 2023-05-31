@@ -19,3 +19,11 @@ body:
       description: Please try to provide as much details as possible
     validations:
       required: true
+      
+  - type: markdown
+  attributes:
+    value: "## Thank you for contributing to our project!"
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.
