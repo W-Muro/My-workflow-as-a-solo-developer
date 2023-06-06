@@ -9,6 +9,7 @@ body:
         
         * Labelsの設定
         * Projectsの設定
+        * Issue作成後にProjectsのStatusを設定
         
   - type: textarea
     id: overview
