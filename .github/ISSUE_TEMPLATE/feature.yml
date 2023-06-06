@@ -30,7 +30,7 @@ body:
     id: task
     attributes:
       label: タスク
-      description: タスクを入力。決まってなければ
+      description: タスクを入力
       value: |
         - [ ] タスク1
         - [ ] タスク2
