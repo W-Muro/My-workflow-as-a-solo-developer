@@ -5,9 +5,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Labelの設定
-        Projectの設定
-        をしてください。
+        以下の項目を確認してからIssueを送信してください。
+        
+        * Labelsの設定
+        * Projectsの設定
+        
   - type: textarea
     id: overview
     attributes:
