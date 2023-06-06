@@ -28,8 +28,7 @@ body:
     id: task
     attributes:
       label: タスク
-      placeholder: 例)
-      description: タスクを入力
+      description: タスクを入力。決まってなければ
       value: |
         - [ ] タスク1
         - [ ] タスク2
